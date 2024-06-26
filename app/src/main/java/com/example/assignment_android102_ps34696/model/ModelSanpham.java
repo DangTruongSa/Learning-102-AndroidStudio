@@ -1,6 +1,7 @@
 package com.example.assignment_android102_ps34696.model;
 
 public class ModelSanpham {
+    //coment in model
     public int masp,soluong,gia;
     public String tensp;
 
