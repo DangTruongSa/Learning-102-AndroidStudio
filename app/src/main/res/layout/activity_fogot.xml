@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FogotActivity"
+    app:cardCornerRadius="20dp">
+<LinearLayout
+    android:id="@+id/lnlu2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        android:text="Nhap Email/User"
+        android:textSize="22dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/sedt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/customedittext"
+        android:hint="Nhập Email"
+        />
+
+    <Button
+        android:id="@+id/sbtn1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custombutton"
+        android:text="Send"
+        app:backgroundTint="@null" />
+    <Button
+        android:id="@+id/sbtn2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custombutton"
+        app:backgroundTint="@null"
+        android:text="Cencel"
+        android:layout_marginBottom="20dp"></Button>
+
+</LinearLayout>
+
+</androidx.cardview.widget.CardView>

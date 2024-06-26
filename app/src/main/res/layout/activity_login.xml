@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="249dp"
+        app:srcCompat="@drawable/img" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        android:text="Username: "
+        android:textSize="22dp"
+        />
+
+    <EditText
+        android:id="@+id/edt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/customedittext"
+        android:hint="Nhập Username"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        android:text="Password : "
+        android:textSize="22dp"
+        />
+
+    <EditText
+        android:id="@+id/edt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/customedittext"
+        android:hint="Nhập Password"
+        />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custombutton"
+        android:text="Login"
+        app:backgroundTint="@null" />
+
+    <TextView
+        android:id="@+id/txtfogot"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:text="@string/fogot"
+        android:textAlignment="center"
+        android:textSize="12dp" />
+    <TextView
+        android:id="@+id/txtsignup"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:gravity="center"
+        android:text="@string/signup"
+        android:textAlignment="center"
+        android:textSize="12dp"/>
+
+</LinearLayout>

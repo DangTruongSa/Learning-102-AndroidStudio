@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="#B4E37E">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="THÊM MỚI SẢN PHẨM"
+            android:layout_gravity="center"
+            android:textColor="#F44336"
+            android:textSize="30sp"
+            android:textStyle="bold"></TextView>
+        <EditText
+            android:id="@+id/edttensp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập tên sản phẩm"></EditText>
+        <EditText
+            android:id="@+id/edtgiasp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập giá sản phẩm"></EditText>
+        <EditText
+            android:id="@+id/edtsoluongsp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập số lượng sản phẩm"></EditText>
+        <Button
+            android:id="@+id/btnthemsp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thêm"
+            android:backgroundTint="#03A9F4"
+            android:textAllCaps="true"></Button>
+        <Button
+            android:id="@+id/btnhuy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hủy"
+            android:backgroundTint="#FF9800"
+            android:textAllCaps="true"></Button>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Assignment-Android102-ps34696</string>
+    <string name="fogot"><u>Fogot password</u></string>
+    <string name="signup">Don\'t have an acount?<b>Sign Up</b></string>
+    <string name="sua"><u>Chỉnh sửa</u></string>
+    <string name="xoa"><u>Xóa</u></string>
+</resources>
